@@ -1,0 +1,11 @@
+<%= @genre.name %>
+
+
+<%= @genre.artists.collect {|artist| artist.name} %>
+<%= @genre.artists.collect {|artist| artist.to_slug} %>
+
+<%= @genre.songs.collect {|song| song.name} %>
+
+
+
+
